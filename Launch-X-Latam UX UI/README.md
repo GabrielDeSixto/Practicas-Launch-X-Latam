@@ -1,7 +1,38 @@
-# Practicas-Launch-X-Latam FrontEnd
+# CASO DE ESTUDIO ABOGABOT
 
-Aqui encontraremos las practicas de la misión FrontEnd las cuales son:
- * Caso: Abogabot enfocado en el diseño de UX/UI
- * Caso: Tacos el Jefe una pagina de HTML con un poco de CSS
- * Replicacion de la página by Adhiari Subekti
+#Descripción del Caso
+Un despacho de abogados (abogabot) requiere de una página web que automatice las demandas de sus clientes, este proceso se hará a través de un formulario, donde el usuario captura sus datos, para después redireccionarlo a un sistema de pagos para que el cliente pueda hacer la transacción, y luego se finalizara el proceso.
+	La pagina web tiene que ser responsiva, es decir se podrá ver desde el celular, además de que la preferencia de color es de azul marino y blanco, pero abogabot está abierto a propuestas.  
  
+#Análisis de Requerimientos 
+El sitio web contara con dos roles principales los cuales son:
+•	El administrador 
+•	El cliente 
+
+A continuación, se describirán los actores del sitio esto con el fin de poder tener una mejor comprensión de estos:
+
+•	Administrador
+-	El administrador necesita poder recibir, ver, listar y actualizar las notificaciones que lleguen de los clientes.
+-	Cuando el administrador requiere recibir, ver y listar los pagos realizados por los clientes.
+a)	Cuando reciba la notificación, se creará automáticamente un formato en Word con los datos que se obtuvieron del formulario que contesto el cliente. 
+b)	Se podrá actualizar el estado de la demanda y agregar comentarios en cada actualización
+c)	Los pagos deberán mostrarse en un Dashboard, con el fin de analizar los ingresos recibidos.
+
+•	Cliente
+-	Podrá registrar su información en un formulario que solicita la pagina al momento de hacer una demanda.
+-	El cliente pagara su solicitud o servicio de forma segura desde el sitio web 
+-	El cliente podrá ver y listar las actualizaciones de su proceso 
+-	Cuando el administrador haga la actualización, el cliente recibirá una notificación para que pueda ver su avance.
+
+•	Todos los Usuarios
+1.	El sitio web tiene que ser responsivo, es decir se puede ver en diferentes dispositivos.
+2.	Los usuarios podrán registrarse por medio de un correo electrónico, o pueden conectarse en caso de que ya tengan una cuenta en la plataforma. 
+-	El registro de administrador y cliente dependerá del dominio del correo, si el correo pertenece al bufete de abogados podrá registrarse como administrador en caso contrario será un cliente. 
+
+#Diagrama de flujo de la Aplicación
+
+#Buyer Persona
+#Público Objetivo
+#Diseño UX wireframes
+#Diseño UI interfaz de usuario
+
