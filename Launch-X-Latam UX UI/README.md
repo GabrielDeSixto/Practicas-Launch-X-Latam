@@ -1,17 +1,18 @@
 # CASO DE ESTUDIO ABOGABOT
 
-#Descripción del Caso
-Un despacho de abogados (abogabot) requiere de una página web que automatice las demandas de sus clientes, este proceso se hará a través de un formulario, donde el usuario captura sus datos, para después redireccionarlo a un sistema de pagos para que el cliente pueda hacer la transacción, y luego se finalizara el proceso.
-	La pagina web tiene que ser responsiva, es decir se podrá ver desde el celular, además de que la preferencia de color es de azul marino y blanco, pero abogabot está abierto a propuestas.  
+<h2>Descripción del Caso</h2>
+<br>
+Un despacho de abogados (abogabot) requiere de una página web que automatice las demandas de sus clientes, este proceso se hará a través de un formulario, donde el usuario captura sus datos, para después redireccionarlo a un sistema de pagos para que el cliente pueda hacer la transacción, y luego se finalizara el proceso. La pagina web tiene que ser responsiva, es decir se podrá ver desde el celular, además de que la preferencia de color es de azul marino y blanco, pero abogabot está abierto a propuestas.  
+<hr>
  
-#Análisis de Requerimientos 
-El sitio web contara con dos roles principales los cuales son:
-•	El administrador 
-•	El cliente 
+<h2>Análisis de Requerimientos</h2><br> 
+El sitio web contara con dos roles principales los cuales son:<br>
+
+•El administrador <br>
+•El cliente <br>
 
 A continuación, se describirán los actores del sitio esto con el fin de poder tener una mejor comprensión de estos:
-
-•	Administrador
+<br><h3>•	Administrador</h3>
 -	El administrador necesita poder recibir, ver, listar y actualizar las notificaciones que lleguen de los clientes.
 -	Cuando el administrador requiere recibir, ver y listar los pagos realizados por los clientes.
 a)	Cuando reciba la notificación, se creará automáticamente un formato en Word con los datos que se obtuvieron del formulario que contesto el cliente. 
