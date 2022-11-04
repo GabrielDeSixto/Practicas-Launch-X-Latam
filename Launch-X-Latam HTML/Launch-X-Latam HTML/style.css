@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+:root {
+  --text-color: #302e29;
+  --main-color: #ff9100;
+  --second-color: #858585;
+  --bg-color: #fffbf6;
+  --big-font: 4.5rem;
+  --h2-font: 2.6rem;
+  --p-font: 1.1rem;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--textcolor);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 23px 15%;
+  transition: all 0.38s ease;
+}
+.logoTJ{
+  width: 80px;
+  height: 100px;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+span {
+  color: var(--main-color);
+}
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  color: var(--text-color);
+  font-size: var(--p-font);
+  font-weight: 600;
+  margin: 2px 25px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.38s ease;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.h-icons {
+  display: flex;
+  align-items: center;
+  padding: 10px 22px;
+  background: var(--main-color);
+  border-radius: 5rem;
+}
+
+.h-icons i {
+  font-size: 22px;
+  color: var(--bg-color);
+  margin-right: 15px;
+  margin-left: 8px;
+}
+
+#menu-icon {
+  font-size: 32px;
+  color: var(--bg-color);
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+
+section {
+  padding: 90px 15% 80px;
+}
+.home{
+  height: 88vh;
+  width:100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.home-img img{
+  width: 100%;
+  height: auto;
+}
+.home-img{
+  width: 100%;
+  height: auto;
+}
+
+.home-text h1{
+  font-size: var(--h2-font);
+  line-height: 1.2;
+  margin-bottom: 7rem;
+}
+
+
+.home-text p{
+  font-size: var(--p-font);
+}
+
+.home-text p{
+  font-size: var(--p-font);
+  font-weight:500;
+  color: var(--second-color);
+  line-height: 32px;
+  margin-bottom: 2.3rem;
+}
+.ubicacion{
+  text-align: center;
+}
+table{
+  margin:0 auto;
+  text-align: center;
+  border-spacing: 30px;
+  
+}
+th, td {
+  text-align: justify;
+}
+
+.btn{
+  display: inline-block;
+  padding: 14px 26px;
+  background: var(--main-color);
+  color: var(--bg-color);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius:  5rem;
+  transition: all .38s ease;
+}
+.btn:hover{
+  letter-spacing: 1px;
+
+}
+
+.col3{
+ 
+  justify-content: flex-start
+}
+
+footer{
+  text-align: center;
+  background: url(imagenes/bg.jpg);
+  padding:40px;
+}
+
+
+
+
+
