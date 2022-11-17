@@ -15,10 +15,14 @@ const fetchPokemon = async() => {
     })
         if (data) {
             console.log(data);
+            console.log(data.species.name);
             let pokeImg = data.sprites.front_default;
-            let pokeInfo = data.abilities;
+            let pokeName = data.name;
+                     
+           
             pokeImage(pokeImg);
             pokeData(pokeInfo);
+            PName(pokeName);
             console.log(pokeImg);
         
     }
@@ -31,9 +35,15 @@ const pokeImage = (url) => {
 
 const pokeData =(abilities)=>{
     const pokeAbilites = document.getElementById("abilities");
+    
     const abilitiesName = abilities.map(item => item.ability.name);
-    //pokeAbilites.innerHTML = '<p>'+abilitiesName[0]+'</p>'; 
-    pokeAbilites.innerHTML = abilitiesName
+   
+    pokeAbilites.innerHTML = abilitiesName;
+    
+}
+const PName =(pokeName)=>{
+    const pokeN = document.getElementById("nombrePokemon");
+    pokeN.innerHTML = ("Nombre: "+pokeName);
 }
 
 
