@@ -32,7 +32,7 @@ c)	Los pagos deberán mostrarse en un Dashboard, con el fin de analizar los ingr
 -	El registro de administrador y cliente dependerá del dominio del correo, si el correo pertenece al bufete de abogados podrá registrarse como administrador en caso contrario será un cliente. 
 <hr>
 
-<h2><b>Diagrama de flujo de la Aplicación</b></h2>
+<h2><b>Diagrama de flujo</b></h2>
 
 <hr>
 
