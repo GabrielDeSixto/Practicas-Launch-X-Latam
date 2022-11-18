@@ -38,6 +38,7 @@ c)	Los pagos deberán mostrarse en un Dashboard, con el fin de analizar los ingr
 <hr>
 
 <h2><b>Buyer Personan</b></h2>
+(https://user-images.githubusercontent.com/104275426/202805941-51d73661-3607-48e5-a775-d9cfdca94f07.png)
 
 <hr>
 
