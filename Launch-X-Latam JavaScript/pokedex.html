@@ -1,108 +1,40 @@
+
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Pokedex Launch X</title>
-    <link rel="stylesheet" href="./pokedex.css" />
-  </head>
-
-  <body>
-    <img src="./pictures/logo_pk.png" alt="logo" class="logo" />
-    <div class="pokeindex">
-      <div class="pokeindex-left">
-        <div class="pokeindex-left__top">
-          <div class="circle-big"></div>
-          <div class="circle-small"></div>
-        </div>
-        <div class="pokeindex-left__screen">
-          <div class="dots">
-            <span></span>
-            <span></span>
-          </div>
-          <div class="screen">
-            <span></span>
-          </div>
-          <div class="status">
-            <div class="status-light"></div>
-            <div class="status-sound">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-        <div class="pokeindex-left__buttons">
-          <div class="buttons">
-            <div class="buttons-circle">
-              <a href=""
-                ><img src="./pictures/boton-de-encendido.png" alt=""
-              /></a>
-            </div>
-            <div class="buttons-quad">
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-          <div class="controller">
-            <div class="controller-touch"></div>
-            <div class="controller-joystick"></div>
-          </div>
-        </div>
-      </div>
-      <div class="pokeindex-middle"></div>
-      <div class="pokeindex-right">
-        <div class="pokeindex-right__screen"></div>
-        <div class="pokeindex-right__buttons">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="pokeindex-right__buttons-quadruple">
-          <div class="dot">
-            <span></span>
-            <span></span>
-          </div>
-          <div class="button">
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="pokeindex-right__buttons-triple">
-          <div class="button">
-            <a href="" class="btn-play"
-              ><img src="./pictures/boton-de-play.png" alt=""
-            /></a>
-            <a href="" class="btn-pause"
-              ><img src="./pictures/pausa.png" alt=""
-            /></a>
-            <p class="text-paused"></p>
-          </div>
-          <div class="light"></div>
-        </div>
-        <div class="pokeindex-input">
-          <label for="name" class="text-input"
-            >POKÉMON:
-            <input type="text" id="name" name="name" class="input-poke" />
-          </label>
-        </div>
-        <div class="pokeindex-right__buttons-double">
-          <a href="" class="btn-stop">DETENER</a>
-          <a href="" class="btn-buscar">BUSCAR</a>
-        </div>
-      </div>
-    </div>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX XLAUNCH</title>
+    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./pokedex.css">
     <script src="./pokedex.js"></script>
-  </body>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="content">
+            <div class="box">
+                <br>
+                <img src="./pictures/logo_pk.png"  alt="" class="imglogo"><br>
+            <div class="box">
+                <div class="head">
+                    <input type="text" id="input-text"class="caja"><br><button onclick="searchPokemon()" class="button-9">BUSCAR POKEMON</button>
+                    <br><br>
+                </div>
+                <div class="details">
+                    <div><img src="./pictures/pokeball.png" id="img-pokemon" alt="img-pokemon" class="imgpokeball"></div><br><br>
+                    <div class="text">
+                        <br><br>
+                        <div><h4 id="name-pokemon"><p>NOMBRE</p></h4></div>
+                        <div><h4 id="estadisticas-pokemon"><p>ATAQUE</p></h4></div>
+                     
+                        <div><h4 id="tipo-pokemon"><p>ESTADISTICAS</p></h4></div>
+                        <div><h4 id="peso-pokemon"><p>MOVIMIENTOS</p></h3></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
 </html>
