@@ -45,11 +45,11 @@ c)	Los pagos deberán mostrarse en un Dashboard, con el fin de analizar los ingr
 <hr>
 
 <h2><b>Diseño UX wireframes</b></h2>
-
+<p>En progreso...</p>
 <hr>
 
 <h2><b>Diseño UI interfaz de usuario</b></h2>
-
+<p>En progreso...</p>
 <hr>
 
 
