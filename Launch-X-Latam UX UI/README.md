@@ -41,7 +41,7 @@ c)	Los pagos deberán mostrarse en un Dashboard, con el fin de analizar los ingr
 <hr>
 
 <h2><b>Público Objetivo</b></h2>
-
+<p>https://miro.com/app/board/uXjVPRLPtds=/?share_link_id=456111489350</p>
 <hr>
 
 <h2><b>Diseño UX wireframes</b></h2>
