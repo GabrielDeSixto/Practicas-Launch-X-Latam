@@ -33,7 +33,7 @@ c)	Los pagos deberán mostrarse en un Dashboard, con el fin de analizar los ingr
 <hr>
 
 <h2><b>Diagrama de flujo</b></h2>
-
+<p>https://miro.com/app/board/uXjVPNaBT0c=/?share_link_id=660518138689</p>
 <hr>
 
 <h2><b>Buyer Personan</b></h2>
