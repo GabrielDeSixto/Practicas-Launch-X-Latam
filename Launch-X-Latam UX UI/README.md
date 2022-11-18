@@ -33,7 +33,8 @@ c)	Los pagos deberán mostrarse en un Dashboard, con el fin de analizar los ingr
 <hr>
 
 <h2><b>Diagrama de flujo</b></h2>
-<p>https://miro.com/app/board/uXjVPNaBT0c=/?share_link_id=660518138689</p>
+
+<p>En el diagrama de flujo nos ayuda a verel proceso que tendra el sitio web> <br>https://miro.com/app/board/uXjVPNaBT0c=/?share_link_id=660518138689</p>
 <hr>
 
 <h2><b>Buyer Personan</b></h2>
@@ -41,7 +42,7 @@ c)	Los pagos deberán mostrarse en un Dashboard, con el fin de analizar los ingr
 <hr>
 
 <h2><b>Público Objetivo</b></h2>
-<p>https://miro.com/app/board/uXjVPRLPtds=/?share_link_id=456111489350</p>
+<p>El publico objetivo es a quien va dirigido el sitio web <br>https://miro.com/app/board/uXjVPRLPtds=/?share_link_id=456111489350</p>
 <hr>
 
 <h2><b>Diseño UX wireframes</b></h2>
